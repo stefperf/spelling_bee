@@ -200,7 +200,7 @@ ranked_spelling_bees = list(spelling_bees.values())
 ranked_spelling_bees.sort(key=lambda el: (-el.val, el.key))
 
 # show top 10 spelling bees
-print('Top 10 spelling bees:')
+print('Top 10 spelling bees, with central letter capitalized:')
 for i, sb in enumerate(ranked_spelling_bees[:10], 1):
     print('#%d: spelling bee %s => %s points' % (i, sb.key, sb.val))
 top_sb = ranked_spelling_bees[0]
