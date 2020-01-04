@@ -2,7 +2,7 @@
 
 from itertools import chain, combinations
 
-ADMISSIBLE_LETTERS = 'abcdefghijklmnopqrtuvwxyz'
+ADMISSIBLE_LETTERS = 'abcdefghijklmnopqrtuvwxyz' # all English alphabet except for 's'
 
 
 def powerset(iterable):
