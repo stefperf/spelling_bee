@@ -1,4 +1,4 @@
-# Riddler Classic "Spelling Bee" @ https://fivethirtyeight.com/features/can-you-solve-the-vexing-vexillology/
+# Solve Riddler Classic "Spelling Bee" @ https://fivethirtyeight.com/features/can-you-solve-the-vexing-vexillology/
 
 from itertools import chain, combinations
 
